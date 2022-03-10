@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Dice prediction</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <p> Roll The Dice</p>
+  <div class="dice">
+    <h4>Selected Variable : <span id="sel" class="select">0<span></h4>
+    <div class="face">
+      <img id="die" src="dice-01.svg">
+    </div>
+    <h4>Score: <span id="sco" class="score">0</span></h4>
+  </div>
+  <div class="bottom">
+    <section class="keys">
+      <div class="column">
+        <span data-key="1">1</span>
+        <span data-key="4">4</span>
+      </div>       
+      <div class="column">
+        <span data-key="2" >2</span>
+        <span data-key="5" >5</span>
+      </div>       
+      <div class="column">
+        <span data-key="3" >3</span>
+        <span data-key="6" >6</span>
+      </div>
+    </section>
+  </div>
+  <div class="footer">
+    <h3 id="load"></h3>
+    <h3 id="res"></h3>
+  </div>
+  <script src="App.js"></script>
+</body>
+
+</html>
